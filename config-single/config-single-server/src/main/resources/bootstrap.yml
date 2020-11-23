@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-single-server  #应用名称
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chengh1356/springconfig-demo-config
+          username: chengh1356
+          password: 88046995.ok
+          default-label: master
+          search-paths: config
